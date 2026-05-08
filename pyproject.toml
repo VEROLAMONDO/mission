@@ -1,0 +1,13 @@
+[project]
+name = "mission"
+version = "0.1.0"
+description = "Small mission checklist helpers."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+Repository = "https://github.com/VEROLAMONDO/mission"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
